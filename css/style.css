@@ -338,9 +338,6 @@ header .intro-text {
 	font-size: 15px;
 	color: rgba(255,255,255,0.8)
 }
-#footer a {
+#footer a, #footer a:hover {
 	color: #f6f6f6;
-}
-#footer a:hover {
-	color: #333;
 }
