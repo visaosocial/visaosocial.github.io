@@ -93,6 +93,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 20px;
 	font-weight: 400;
 }
+.coracao {
+	padding-top: 2%;
+}
+.papel-higienico {
+	padding-top: 5%;
+}
+.brinquedo {
+	padding-top: 1%;
+}
+.computador {
+	padding-top: 3%;
+}
 /* Navegação */
 #menu {
 	padding: 20px;
@@ -260,7 +272,7 @@ header .intro-text {
 	color: #FFFFFF;
 }
 #colabore .colabore-simbolo {
-	height: 150px;
+	height: 170px;
 }
 #colabore .colabore-simbolo > img {
 	margin: auto;
