@@ -243,8 +243,11 @@ header .intro-text {
 #atividades-desenvolvidas hr {
 	margin: 15px auto;
 }
+#atividades-desenvolvidas .projeto-imagem {
+	padding-bottom: 10px;
+}
 #atividades-desenvolvidas .mensagem {
-	padding: 60px 0px 20px 0;
+	padding: 50px 0px 20px 0;
 }
 #atividades-desenvolvidas .mensagem > p {
 	font-size: 25px;
