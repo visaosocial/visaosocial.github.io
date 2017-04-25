@@ -89,22 +89,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-.facebook-texto {
-	font-size: 20px;
-	font-weight: 400;
-}
-.coracao {
-	padding-top: 2%;
-}
-.papel-higienico {
-	padding-top: 5%;
-}
-.brinquedo {
-	padding-top: 1%;
-}
-.computador {
-	padding-top: 3%;
-}
 /* Navegação */
 #menu {
 	padding: 20px;
@@ -259,6 +243,15 @@ header .intro-text {
 #atividades-desenvolvidas hr {
 	margin: 15px auto;
 }
+#atividades-desenvolvidas .mensagem {
+	padding: 60px 0px 20px 0;
+}
+#atividades-desenvolvidas .mensagem > p {
+	font-size: 25px;
+}
+#atividades-desenvolvidas .projeto-texto {
+	height: 143px;
+}
 /* Colabore */
 #colabore {
 	padding: 0 0 120px 0;
@@ -285,6 +278,18 @@ header .intro-text {
 #colabore .colabore-texto > h3 {
 	text-align: center;
 	color: #000000;
+}
+#colabore .coracao {
+	padding-top: 2%;
+}
+#colabore .papel-higienico {
+	padding-top: 5%;
+}
+#colabore .brinquedo {
+	padding-top: 1%;
+}
+#colabore .computador {
+	padding-top: 3%;
 }
 /* Contato */
 #contato {
@@ -352,4 +357,8 @@ header .intro-text {
 }
 #footer a, #footer a:hover {
 	color: #f6f6f6;
+}
+#footer .social .facebook-texto {
+	font-size: 20px;
+	font-weight: 400;
 }
