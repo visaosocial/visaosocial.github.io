@@ -273,6 +273,7 @@ header .intro-text {
 }
 #colabore .colabore-simbolo > img {
 	margin: auto;
+	max-width: 120px;
 }
 #colabore .colabore-texto > p {
 	text-align: center;
