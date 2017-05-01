@@ -98,7 +98,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding-top: 0px;
 }
 #menu a.navbar-brand > img {
-	display: inline;;
+	display: inline;
+	max-width: 50px;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
