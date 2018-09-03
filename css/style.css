@@ -367,3 +367,7 @@ header .intro-text {
 	font-size: 20px;
 	font-weight: 400;
 }
+/* Google translate */
+#google_translate_element {
+	margin-top: 15px;
+}
