@@ -1,3 +1,5 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
 body, html {
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -88,6 +90,83 @@ hr {
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
+}
+/* Social buttons */
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+/* google plus button class*/
+.youtubeBtn{
+    background:red;
+}
+.youtubeBtn:before{
+      font-family: "FontAwesome";
+      content: "\f167"; /* add googleplus icon */
+}
+.youtubeBtn:hover{
+      color: red;
+      background: #fff;
+      border-color: red;
+}
+/* linkedin button class*/
+.instagramBtn{
+    background: #125688;
+}
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add linkedin icon */
+}
+.instagramBtn:hover{
+      color: #125688;
+      background: #fff;
+      border-color: #125688;
 }
 /* Navegação */
 #menu {
