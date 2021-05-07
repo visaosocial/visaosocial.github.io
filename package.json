@@ -9,7 +9,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-minify": "^1.0.0",
     "minimatch": ">=3.0.2",
-    "lodash": ">=4.17.5"
+    "lodash": ">=4.17.21"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
